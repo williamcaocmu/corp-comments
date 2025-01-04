@@ -1,6 +1,6 @@
-import Container from "./Container";
+import Container from "./container/Container";
 import Footer from "./Footer";
-import HashtagList from "./HashtagList";
+import HashtagList from "./hashtag-list/HashtagList";
 
 function App() {
   return (

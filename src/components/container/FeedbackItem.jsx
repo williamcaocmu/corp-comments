@@ -5,7 +5,7 @@ export default function FeedbackItem({ feedbackItem }) {
     <li className={`feedback ${true ? "feedback--expand" : ""}`}>
       <button>
         <TriangleUpIcon />
-        <span>{"upvote"}</span>
+        <span>{feedbackItem.upvoteCount}</span>
       </button>
 
       <div>
